@@ -1,11 +1,11 @@
 ## Build
 # FROM --platform=linux/arm64 arm64v8/node:14 AS node
-FROM node:16-buster AS node
+# FROM node:16-buster AS node
 
 # Install Ionic and Cordova
-RUN npm install -g @ionic/cli cordova
+# RUN npm install -g @ionic/cli cordova
 
-# FROM --platform=linux/amd64 beevelop/ionic:latest AS node
+FROM --platform=linux/amd64 beevelop/ionic:latest AS node
 
 # Create app directory
 WORKDIR /usr/src/app

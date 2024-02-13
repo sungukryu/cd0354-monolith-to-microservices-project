@@ -8,8 +8,8 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 # RUN npm rebuild bcrypt --build-from-source
 # RUN npm install bcrypt
-RUN rm package-lock.json
-RUN npm install 
+# RUN rm package-lock.json
+# RUN npm install 
 RUN npm ci 
 # Bundle app source
 COPY . .
