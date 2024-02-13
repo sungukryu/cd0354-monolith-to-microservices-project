@@ -1,5 +1,5 @@
-# FROM --platform=linux/amd64 node:13
-FROM --platform=linux/arm64 arm64v8/node:14 AS node
+FROM node:13
+# FROM --platform=linux/arm64 arm64v8/node:14 AS node
 
 # Create app directory
 WORKDIR /usr/src/app

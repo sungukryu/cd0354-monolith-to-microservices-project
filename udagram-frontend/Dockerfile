@@ -5,7 +5,8 @@
 # Install Ionic and Cordova
 # RUN npm install -g @ionic/cli cordova
 
-FROM --platform=linux/amd64 beevelop/ionic:latest AS node
+# FROM --platform=linux/amd64 beevelop/ionic:latest AS node
+FROM beevelop/ionic:latest AS node
 
 # Create app directory
 WORKDIR /usr/src/app
