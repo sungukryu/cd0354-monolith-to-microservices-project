@@ -1,6 +1,8 @@
 apiVersion: v1
 kind: ConfigMap
-data:
+metadata:
+  name: env-configmap
+stringData:
   AWS_BUCKET: arn:aws:s3:::udagram-2024
   AWS_PROFILE: default
   AWS_REGION: us-east-1
@@ -8,5 +10,3 @@ data:
   POSTGRES_DB: postgres
   POSTGRES_HOST: database-2.ccvuxvhic59w.us-east-1.rds.amazonaws.com
   URL: http://localhost:8100
-metadata:
-  name: env-configmap
