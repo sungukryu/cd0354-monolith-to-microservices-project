@@ -9,4 +9,4 @@ stringData:
   JWT_SECRET: testing
   POSTGRES_DB: postgres
   POSTGRES_HOST: database-2.ccvuxvhic59w.us-east-1.rds.amazonaws.com
-  URL: http://localhost:8100
+  URL: ac697cc6aeb304e1fa4d6bddd910aa7b-672404356.us-east-1.elb.amazonaws.com
